@@ -1,0 +1,10 @@
+[target.wasm32-unknown-unknown]
+runner = "wasm-server-runner"
+
+[target.x86_64-pc-windows-msvc]
+linker = "/usr/local/opt/llvm/bin/lld-link"
+rustflags = [
+  "-Lnative=/Users/nick/.xwin/crt/lib/x86_64",
+  "-Lnative=/Users/nick/.xwin/sdk/lib/um/x86_64",
+  "-Lnative=/Users/nick/.xwin/sdk/lib/ucrt/x86_64"
+]
