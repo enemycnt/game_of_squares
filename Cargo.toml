@@ -2,6 +2,7 @@
 name = "game_of_squares"
 version = "0.1.0"
 edition = "2021"
+publish = false
 build = "build.rs"
 exclude = ["dist", "build", "assets", "repo_assets"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

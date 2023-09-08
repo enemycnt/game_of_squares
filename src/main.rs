@@ -70,6 +70,8 @@ fn main() {
                         resolution: (WIDTH, HEIGHT).into(),
                         title: "Game of Squares".to_string(),
                         resizable: false,
+                        // Bind to canvas included in `index.html`
+                        canvas: Some("#bevy".to_owned()),
                         // Tells wasm not to override default event handling, like F5, Ctrl+R etc.
                         prevent_default_event_handling: false,
                         // enabled_buttons: bevy::window::EnabledButtons {
