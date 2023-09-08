@@ -12,6 +12,7 @@ exclude = ["dist", "build", "assets", "repo_assets"]
 
 [profile.release]
 opt-level = 'z'
+codegen-units = 1
 # lto = "thin"
 
 [dependencies]

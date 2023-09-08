@@ -2,6 +2,8 @@
 
 <img src="./repo_assets/screen.png" width="313" alt="screenshot">
 
+[Live demo](https://enemycnt.github.io/game_of_squares/)
+
 ## Overview
 It is a 2D demo project built using the Rust programming language. It serves as a playful exploration of graphics and game development, showcasing the potential of Rust in creating lightweight and high-performance applications.
 
