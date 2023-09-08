@@ -45,8 +45,8 @@ body {
 }
 </style>
   
-<link rel="preload" href="/game_of_squares/game_of_squares-c579c6e9aef8a202_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/game_of_squares/game_of_squares-c579c6e9aef8a202.js"></head>
+<link rel="preload" href="/game_of_squares/game_of_squares-9875d205fee68c80_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/game_of_squares/game_of_squares-9875d205fee68c80.js"></head>
   <body>
     <script>// Insert hack to make sound autoplay on Chrome as soon as the user interacts with the tab:
 // https://developers.google.com/web/updates/2018/11/web-audio-autoplay#moving-forward
@@ -112,8 +112,10 @@ body {
 })();
 </script>
     <div class="game-container">
-      <canvas id="bevy"> Javascript and support for canvas is required </canvas>
+      <canvas id="bevy" tabindex="0" autofocus="">
+        Javascript and support for canvas is required
+      </canvas>
     </div>
   
 
-<script type="module">import init from '/game_of_squares/game_of_squares-c579c6e9aef8a202.js';init('/game_of_squares/game_of_squares-c579c6e9aef8a202_bg.wasm');</script></body></html>
+<script type="module">import init from '/game_of_squares/game_of_squares-9875d205fee68c80.js';init('/game_of_squares/game_of_squares-9875d205fee68c80_bg.wasm');</script></body></html>
